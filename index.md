@@ -9,6 +9,7 @@ Puzzle Land ("we", "our", or "the app") is a jigsaw puzzle application suitable 
 ### Information Stored On-Device Only
 - **Puzzle Progress:** Completed puzzles, stars earned, and best times
 - **App Settings:** Sound preferences
+- **Parental Access PIN:** If set, a 4-digit PIN used to restrict access to the Settings screen
 - **Unlocked Content:** Which puzzles and categories are unlocked
 
 All of this data is stored **locally on your device only** and is never transmitted to our servers.
@@ -41,6 +42,14 @@ No personally identifiable information is collected through Crashlytics. For det
 **All user data is stored locally on your device.** We do not operate any servers and do not store any user data in the cloud. The only network activity is:
 - Loading advertisements (Start.io)
 - Sending crash reports (Firebase Crashlytics)
+
+## Parental Access (Parent Gate)
+
+Puzzle Land includes a Parental Access feature to help parents control access to the app's Settings screen:
+- Parents can create a 4-digit PIN to protect access to settings
+- The PIN is stored **locally on your device only** and is never transmitted to any server
+- The PIN can be deleted at any time from the Settings screen
+- No personal information is collected as part of this feature
 
 ## Privacy Protections
 
